@@ -9,6 +9,15 @@ body{
   background-color: $backcolor1;
 }
 
+button{
+  border:none;
+}
+
+a{
+  text-decoration: none;
+  color:$textcolorPar;
+}
+
 @for $i from 1 through 10 {
   $wid:10% * $i;
   .wd-#{$i} {
@@ -44,7 +53,7 @@ $j: 5;
   }
   .pdg-y-#{$j}{
     padding-top : 1px * $j;
-    padding-top : 1px * $j;
+    padding-bottom : 1px * $j;
   }
   $j: $j+5
 }
