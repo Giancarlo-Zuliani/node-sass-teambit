@@ -8,6 +8,5 @@
 
 @mixin flexspcbetween{
   display: flex;
-  justify-content:center;
-  align-items: space-around;
+  align-items: space-between;
 }

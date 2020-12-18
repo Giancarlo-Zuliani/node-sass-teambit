@@ -1,6 +1,7 @@
 header{
   @include headborder;
   @include automargin;
+  @include flexspcbetween;
   background-color: $backcolor1;
   height:$headerHeight;
   color:$textcolorPar;
