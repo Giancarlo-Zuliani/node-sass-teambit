@@ -10,6 +10,7 @@
     }
     h1{
       font-size: $jumboFontSize;
+      width:95%;
     }
     p{
       font-size: $mainFontSize;
@@ -37,11 +38,14 @@
     @include flexspcbetween;
     .box{
       img{
-        width:90%;
-      }
-      p{
-        width:90%;
+        max-width: 90%;
+        height:110px;
+        margin: 15px;
       }
     }
+  }
+  hr{
+    color:$textcolorTtl;
+    margin-bottom: 50px;
   }
 }
