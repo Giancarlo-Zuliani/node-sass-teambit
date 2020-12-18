@@ -1,0 +1,7 @@
+header{
+  @include headborder;
+  @include automargin;
+  background-color: $backcolor1;
+  height:$headerHeight;
+  color:$textcolorPar;
+}

@@ -1,0 +1,7 @@
+@mixin headborder{
+  border-bottom:solid 1px $textcolorTtl;
+}
+
+@mixin automargin{
+  margin:0 auto;
+}

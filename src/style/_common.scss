@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@for $i from 1 through 10 {
+  $wid:10% * $i;
+  .wd-#{$i} {
+    width: $wid;
+  }
+}
+
+$j: 5;
+
+@while $j <= 100 {
+  .mrg-#{$j}{
+    margin: 1px * $j;
+  }
+  $j: $j+5
+}
+
+$j: 5;
+
+@while $j <= 100 {
+  .pdg-#{$j}{
+  padding : 1px * $j;
+  }
+  $j: $j+5
+}
