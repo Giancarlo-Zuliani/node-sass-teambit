@@ -5,4 +5,38 @@ header{
   background-color: $backcolor1;
   height:$headerHeight;
   color:$textcolorPar;
+  div{
+    @include flex;
+    margin-bottom: 30px;
+    font-size: $navFontSize;
+    font-weight: 600;
+    ul{
+      list-style: none;
+      li{
+        display: inline-block;
+        margin-left: 30px;
+        button{
+          @include flex;
+          min-width: 90px;
+          border:1px solid $btnback;
+          border-radius: 5px;
+          padding:5px 8px;
+          color:$btnback;
+          background-color: $backcolor1;
+          img{
+            width:25%;
+          }
+        }
+        &:hover{
+          cursor:pointer;
+        }
+      }
+    }
+    > img{
+      margin:0 10px;
+    }
+    span{
+      font-weight: normal;
+    }
+  }
 }
