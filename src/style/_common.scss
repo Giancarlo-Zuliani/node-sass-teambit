@@ -5,10 +5,15 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+body{
+  background-color: $backcolor1;
+}
+
 @for $i from 1 through 10 {
   $wid:10% * $i;
   .wd-#{$i} {
-    width: $wid;
+    max-width: $wid;
+    margin:0 auto;
   }
 }
 
@@ -18,14 +23,28 @@ $j: 5;
   .mrg-#{$j}{
     margin: 1px * $j;
   }
-  $j: $j+5
-}
-
-$j: 5;
-
-@while $j <= 100 {
+  .mrg-l-#{$j}{
+    margin-left: 1px * $j;
+  }
+  .mrg-r-#{$j}{
+    margin-right: 1px * $j;
+  }
+  .mrg-t-#{$j}{
+    margin-top: 1px * $j;
+  }
+  .mrg-b-#{$j}{
+    margin-bottom: 1px * $j;
+  }
   .pdg-#{$j}{
   padding : 1px * $j;
+  }
+  .pdg-x-#{$j}{
+    padding-left: 1px *$j;
+    padding-right:  1px *$j;
+  }
+  .pdg-y-#{$j}{
+    padding-top : 1px * $j;
+    padding-top : 1px * $j;
   }
   $j: $j+5
 }
