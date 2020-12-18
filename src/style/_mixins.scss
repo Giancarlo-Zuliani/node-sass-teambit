@@ -5,3 +5,9 @@
 @mixin automargin{
   margin:0 auto;
 }
+
+@mixin flexspcbetween{
+  display: flex;
+  justify-content:center;
+  align-items: space-around;
+}
