@@ -9,6 +9,15 @@ body {
   background-color: #4466d4;
 }
 
+button {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #040000;
+}
+
 .wd-1 {
   max-width: 10%;
   margin: 0 auto;
@@ -90,7 +99,7 @@ body {
 
 .pdg-y-5 {
   padding-top: 5px;
-  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .mrg-10 {
@@ -124,7 +133,7 @@ body {
 
 .pdg-y-10 {
   padding-top: 10px;
-  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .mrg-15 {
@@ -158,7 +167,7 @@ body {
 
 .pdg-y-15 {
   padding-top: 15px;
-  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .mrg-20 {
@@ -192,7 +201,7 @@ body {
 
 .pdg-y-20 {
   padding-top: 20px;
-  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .mrg-25 {
@@ -226,7 +235,7 @@ body {
 
 .pdg-y-25 {
   padding-top: 25px;
-  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .mrg-30 {
@@ -260,7 +269,7 @@ body {
 
 .pdg-y-30 {
   padding-top: 30px;
-  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .mrg-35 {
@@ -294,7 +303,7 @@ body {
 
 .pdg-y-35 {
   padding-top: 35px;
-  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 .mrg-40 {
@@ -328,7 +337,7 @@ body {
 
 .pdg-y-40 {
   padding-top: 40px;
-  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .mrg-45 {
@@ -362,7 +371,7 @@ body {
 
 .pdg-y-45 {
   padding-top: 45px;
-  padding-top: 45px;
+  padding-bottom: 45px;
 }
 
 .mrg-50 {
@@ -396,7 +405,7 @@ body {
 
 .pdg-y-50 {
   padding-top: 50px;
-  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .mrg-55 {
@@ -430,7 +439,7 @@ body {
 
 .pdg-y-55 {
   padding-top: 55px;
-  padding-top: 55px;
+  padding-bottom: 55px;
 }
 
 .mrg-60 {
@@ -464,7 +473,7 @@ body {
 
 .pdg-y-60 {
   padding-top: 60px;
-  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .mrg-65 {
@@ -498,7 +507,7 @@ body {
 
 .pdg-y-65 {
   padding-top: 65px;
-  padding-top: 65px;
+  padding-bottom: 65px;
 }
 
 .mrg-70 {
@@ -532,7 +541,7 @@ body {
 
 .pdg-y-70 {
   padding-top: 70px;
-  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .mrg-75 {
@@ -566,7 +575,7 @@ body {
 
 .pdg-y-75 {
   padding-top: 75px;
-  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 .mrg-80 {
@@ -600,7 +609,7 @@ body {
 
 .pdg-y-80 {
   padding-top: 80px;
-  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .mrg-85 {
@@ -634,7 +643,7 @@ body {
 
 .pdg-y-85 {
   padding-top: 85px;
-  padding-top: 85px;
+  padding-bottom: 85px;
 }
 
 .mrg-90 {
@@ -668,7 +677,7 @@ body {
 
 .pdg-y-90 {
   padding-top: 90px;
-  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .mrg-95 {
@@ -702,7 +711,7 @@ body {
 
 .pdg-y-95 {
   padding-top: 95px;
-  padding-top: 95px;
+  padding-bottom: 95px;
 }
 
 .mrg-100 {
@@ -736,7 +745,7 @@ body {
 
 .pdg-y-100 {
   padding-top: 100px;
-  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 header {
@@ -800,31 +809,70 @@ header div span {
 #section-one {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  flex-direction: row;
   background-color: #4466d4;
 }
 
-#section-one div {
+#section-one > div {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  max-width: 50%;
 }
 
-#section-one div > img {
+#section-one > div > img {
   max-width: 100%;
   max-height: 100%;
   background-size: contain;
 }
 
-#section-one div h1 {
+#section-one > div h1 {
   font-size: 60px;
 }
 
-#section-one div div {
+#section-one > div p {
+  font-size: 24px;
+}
+
+#section-one > div .btncontainer {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#section-one > div .btncontainer button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: #7f14d4;
+  color: #040000;
+  min-width: 80%;
+  border-radius: 5px;
+}
+
+#section-one > div .btncontainer button img {
+  max-width: 10%;
+}
+
+#section-two {
+  background-color: #0e14ee;
+  text-align: center;
+}
+
+#section-two .s-two-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#section-two .s-two-container .box img {
+  width: 90%;
+}
+
+#section-two .s-two-container .box p {
+  width: 90%;
 }
 
