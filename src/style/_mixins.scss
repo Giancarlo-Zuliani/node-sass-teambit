@@ -31,3 +31,26 @@
   justify-content: space-around;
   flex-direction: row;
 }
+
+@mixin flexcolumnend{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+@mixin socialbtn{
+  @include flexspc;
+  background-color: $btnback;
+  color:$textcolorPar;
+  border-radius: 5px;
+  img{
+    max-width: 10%;
+  }
+}
+ @mixin flexstart{
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: center;
+ }

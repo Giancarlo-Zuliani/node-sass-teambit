@@ -1,0 +1,39 @@
+footer{
+  background-color: $btnback;
+  > div{
+    @include flexstart;
+    div:first-child{
+      width:calc(100% / 3);
+      padding:15px;
+      margin-right: 25px;
+    }
+  }
+  .footerlist{
+    width:calc(66% / 5);
+    padding:10px;
+    margin: 250px;
+  }
+}
+
+
+#widget{
+  position: fixed;
+  right:15px;
+  bottom:15px;
+  div{
+    @include flexspc;
+    transition: transform ease .2s;
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    background-color:$backcolor2;
+    i{
+      font-size: 40px;
+    }
+    &:hover{
+      cursor:pointer;
+      transform: scale(1.15);
+      color:$textcolorPar;
+    }
+  }
+}

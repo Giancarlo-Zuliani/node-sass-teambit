@@ -1,6 +1,6 @@
 #section-one{
   @include flexspc;
-  background-color:$backcolor1;
+  background-color:$backcolor2;
   >div{
     @include flexcolumn;
     > img{
@@ -18,21 +18,15 @@
     .btncontainer{
       @include flexspc;
       button{
-        @include flexspc;
-        background-color: $btnback;
-        color:$textcolorPar;
+        @include socialbtn;
         min-width:80%;
-        border-radius: 5px;
-        img{
-          max-width: 10%;
-        }
       }
     }
   }
 }
 
 #section-two{
-  background-color: $backcolor2;
+  background-color:$backcolor1;
   text-align:center;
   .s-two-container{
     @include flexspcbetween;
@@ -47,5 +41,79 @@
   hr{
     color:$textcolorTtl;
     margin-bottom: 50px;
+  }
+}
+
+#section-three{
+  background-color: #fff;
+  text-align: center;
+  div{
+    @include flexspc;
+    .float-l{
+      @include flexcolumn;
+      text-align: left;
+    }
+    div{
+      img{
+        max-width: 100%;
+        padding:30px;
+      }
+      h3 {
+        margin: 30px 0;
+        width:50%;
+      }
+      p{
+        width: 60%;
+        margin-bottom: 30px;
+      }
+      .toonimg{
+        max-width:50%;
+      }
+    }
+    .float-r{
+      @include flexcolumnend;
+      text-align: right;
+    }
+  }
+}
+
+
+#section-four{
+  background-color: $backcolor1;
+  text-align: center;
+  padding:50px;
+  div:first-child{
+    @include flexcolumn;
+    background-color: $backcolor2;
+    color:$textcolorPar;
+    padding: 25px;
+    border:solid 1px $btnback;
+    p{
+      margin-bottom: 15px;
+      text-align: left;
+    }
+    .founders{
+      @include flexspc;
+      div{
+        @include flexcolumn;
+        span:first-child{
+          color:$btnback;
+        }
+      }
+      img{
+        max-width: 15%;
+      }
+    }
+  }
+  h3{
+    font-size: 25px;
+    line-height: 2;
+  }
+  .btnbox{
+    @include flexspc;
+    button{
+      @include socialbtn;
+      min-width: 45%;
+    }
   }
 }

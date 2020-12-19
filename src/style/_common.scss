@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color: $backcolor1;
+  background-color: $backcolor2;
 }
 
 button{
@@ -18,11 +18,14 @@ a{
   color:$textcolorPar;
 }
 
+
+
 @for $i from 1 through 10 {
   $wid:10% * $i;
   .wd-#{$i} {
     max-width: $wid;
-    margin:0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
