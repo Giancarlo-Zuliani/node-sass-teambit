@@ -1028,7 +1028,19 @@ footer > div div:first-child {
 footer .footerlist {
   width: calc(66% / 5);
   padding: 10px;
-  margin: 250px;
+  margin: 25px;
+  list-style: none;
+}
+
+footer .footerlist :first-child {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+footer .footerlist li {
+  margin-bottom: 15px;
 }
 
 #widget {
