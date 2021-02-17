@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #0e14ee;
+  background-color: #ffe7d2;
 }
 
 button {
@@ -15,7 +15,7 @@ button {
 
 a {
   text-decoration: none;
-  color: #040000;
+  color: #4e3d1e;
 }
 
 .wd-1 {
@@ -759,14 +759,14 @@ a {
 }
 
 header {
-  border-bottom: solid 1px #040f0f;
+  border-bottom: solid 1px #58402c;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  background-color: #0e14ee;
+  background-color: #ffe7d2;
   height: 150px;
-  color: #040000;
+  color: #4e3d1e;
 }
 
 header div {
@@ -793,11 +793,11 @@ header div ul li button {
   justify-content: space-between;
   align-items: center;
   min-width: 90px;
-  border: 1px solid #7f14d4;
+  border: 1px solid #30488f;
   border-radius: 5px;
   padding: 5px 8px;
-  color: #7f14d4;
-  background-color: #4466d4;
+  color: #30488f;
+  background-color: #fff;
 }
 
 header div ul li button img {
@@ -821,7 +821,7 @@ header div span {
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
-  background-color: #0e14ee;
+  background-color: #ffe7d2;
 }
 
 #section-one > div {
@@ -858,8 +858,8 @@ header div span {
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
-  background-color: #7f14d4;
-  color: #040000;
+  background-color: #30488f;
+  color: #4e3d1e;
   border-radius: 5px;
   min-width: 80%;
 }
@@ -869,7 +869,7 @@ header div span {
 }
 
 #section-two {
-  background-color: #4466d4;
+  background-color: #fff;
   text-align: center;
 }
 
@@ -886,7 +886,7 @@ header div span {
 }
 
 #section-two hr {
-  color: #040f0f;
+  color: #58402c;
   margin-bottom: 50px;
 }
 
@@ -938,7 +938,7 @@ header div span {
 }
 
 #section-four {
-  background-color: #4466d4;
+  background-color: #fff;
   text-align: center;
   padding: 50px;
 }
@@ -948,10 +948,10 @@ header div span {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background-color: #0e14ee;
-  color: #040000;
+  background-color: #ffe7d2;
+  color: #4e3d1e;
   padding: 25px;
-  border: solid 1px #7f14d4;
+  border: solid 1px #30488f;
 }
 
 #section-four div:first-child p {
@@ -974,7 +974,7 @@ header div span {
 }
 
 #section-four div:first-child .founders div span:first-child {
-  color: #7f14d4;
+  color: #30488f;
 }
 
 #section-four div:first-child .founders img {
@@ -998,8 +998,8 @@ header div span {
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
-  background-color: #7f14d4;
-  color: #040000;
+  background-color: #30488f;
+  color: #4e3d1e;
   border-radius: 5px;
   min-width: 45%;
 }
@@ -1009,7 +1009,7 @@ header div span {
 }
 
 footer {
-  background-color: #7f14d4;
+  background-color: #30488f;
 }
 
 footer > div {
@@ -1058,7 +1058,7 @@ footer .footerlist li {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: #0e14ee;
+  background-color: #ffe7d2;
 }
 
 #widget div i {
@@ -1068,6 +1068,6 @@ footer .footerlist li {
 #widget div:hover {
   cursor: pointer;
   transform: scale(1.15);
-  color: #040000;
+  color: #4e3d1e;
 }
 
